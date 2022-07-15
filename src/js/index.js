@@ -1,2 +1,8 @@
 import "../css/style.css";
-console.log(123);
+
+import { Keyboard } from "./keyboard";
+
+// Instance를 생성
+const keyboard = new Keyboard();
+
+console.log(keyboard);
